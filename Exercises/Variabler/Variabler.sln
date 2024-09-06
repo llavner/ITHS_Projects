@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Hälsa på användaren", "01. Hälsa på användaren\01. Hälsa på användaren.csproj", "{757958B1-783A-40C0-AC47-E7388F445AD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Multiplicera två tal", "02. Multiplicera två tal\02. Multiplicera två tal.csproj", "{865F0138-C3C4-400E-8811-C09D9F892B62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Verifiera lösenord", "03. Verifiera lösenord\03. Verifiera lösenord.csproj", "{26F8AAC4-E0F0-452E-B311-2F5F6A0AB241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Jämför tal", "04. Jämför tal\04. Jämför tal.csproj", "{4AAA4143-E5DF-4E73-8B6F-EE7F0AF810D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Dubblera och halvera tal", "05. Dubblera och halvera tal\05. Dubblera och halvera tal.csproj", "{B3B314E5-AC83-49D1-84A0-80ABA9FB15D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Miniräknare", "06. Miniräknare\06. Miniräknare.csproj", "{60FA87A8-EFF9-4D9B-BFF0-0F1F8FB2A016}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Summa och medelvärde", "07. Summa och medelvärde\07. Summa och medelvärde.csproj", "{02AEC026-2E9F-4BEE-B03B-D9FBBFA49357}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{757958B1-783A-40C0-AC47-E7388F445AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{757958B1-783A-40C0-AC47-E7388F445AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{757958B1-783A-40C0-AC47-E7388F445AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{757958B1-783A-40C0-AC47-E7388F445AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{865F0138-C3C4-400E-8811-C09D9F892B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{865F0138-C3C4-400E-8811-C09D9F892B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{865F0138-C3C4-400E-8811-C09D9F892B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{865F0138-C3C4-400E-8811-C09D9F892B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F8AAC4-E0F0-452E-B311-2F5F6A0AB241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F8AAC4-E0F0-452E-B311-2F5F6A0AB241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F8AAC4-E0F0-452E-B311-2F5F6A0AB241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F8AAC4-E0F0-452E-B311-2F5F6A0AB241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AAA4143-E5DF-4E73-8B6F-EE7F0AF810D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AAA4143-E5DF-4E73-8B6F-EE7F0AF810D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AAA4143-E5DF-4E73-8B6F-EE7F0AF810D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AAA4143-E5DF-4E73-8B6F-EE7F0AF810D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3B314E5-AC83-49D1-84A0-80ABA9FB15D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B314E5-AC83-49D1-84A0-80ABA9FB15D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B314E5-AC83-49D1-84A0-80ABA9FB15D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B314E5-AC83-49D1-84A0-80ABA9FB15D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60FA87A8-EFF9-4D9B-BFF0-0F1F8FB2A016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FA87A8-EFF9-4D9B-BFF0-0F1F8FB2A016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FA87A8-EFF9-4D9B-BFF0-0F1F8FB2A016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FA87A8-EFF9-4D9B-BFF0-0F1F8FB2A016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02AEC026-2E9F-4BEE-B03B-D9FBBFA49357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02AEC026-2E9F-4BEE-B03B-D9FBBFA49357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02AEC026-2E9F-4BEE-B03B-D9FBBFA49357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02AEC026-2E9F-4BEE-B03B-D9FBBFA49357}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D9229E2-F783-4E69-B596-3566472490C5}
+	EndGlobalSection
+EndGlobal
