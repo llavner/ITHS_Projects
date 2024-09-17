@@ -11,8 +11,9 @@
 
                 for (int j = 0; j <= i; j++)
                 {
+                    if (i == 0 || i >= j || j == 0 || j == i)
                     Console.Write(numbers[j]);
-
+                    
                 }
                 Console.WriteLine();
             }

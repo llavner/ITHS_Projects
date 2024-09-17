@@ -4,7 +4,16 @@
     {
         static void Main(string[] args)
         {
-            
+
+            Random random = new Random();
+
+            int rockScissorBag = random.Next(1, 4);
+
+
+            Console.WriteLine("");
+
+
+
         }
     }
 }

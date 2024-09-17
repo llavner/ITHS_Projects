@@ -7,9 +7,16 @@
             Console.Write("Skriv en text: ");
             string text = Console.ReadLine();
 
-            Console.WriteLine(text[0]);
+            Console.WriteLine(StringManipulation(text));
         }
-
-        
+        static string StringManipulation(string text)
+        {
+            char[] textArray = text.ToCharArray();
+            string result = string.Join("-", textArray);
+            return result.ToString();
+        }
     }
 }
+
+
+
