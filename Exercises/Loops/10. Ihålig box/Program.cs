@@ -12,20 +12,20 @@
             string width = Console.ReadLine();
             int pWidth = Int32.Parse(width);
 
+
             for (int i = 0; i < pHight; i++)
             {
-
-                for (int j = 0; j <pWidth; j++)
+                for (int j = 0; j < pWidth; j++)
                 {
 
-                    for (int k = 0; k < ; k++)
-                    {
+                    if(i == 0 || i == pHight - 1|| j == 0 || j == pWidth - 1) // Print "#" for the borders (first row, last row, first or last column)
+                        Console.Write("#");
+                    else
+                        Console.Write(" ");
 
-                    }
-                    Console.WriteLine("X");
                 }
+                Console.WriteLine();
 
-                Console.WriteLine("X");
             }
         }
     }
