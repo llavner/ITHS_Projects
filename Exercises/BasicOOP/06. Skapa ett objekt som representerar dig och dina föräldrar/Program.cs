@@ -6,14 +6,19 @@
         {
             Person myself = new Person() { firstName = "Marcus", lastName = "Renvall"};
 
-            //myself.father = new Person() { firstName = "Leif", lastName = "Renvall" };
+            
 
-            //myself.mother = new Person() { firstName = "Hillevi", lastName = "Bark" };
+            myself.father = new Person() { firstName = "Leif", lastName = "Renvall" };
+            myself.father.father = new Person() { firstName = "Lage", lastName = "Renvall" };
+            myself.father.mother = new Person() { firstName = "Lisa", lastName = "Renvall" };
 
-            //myself.father.father = new Person() { firstName = "Lage", lastName = "Renvall" };
+            myself.mother = new Person() { firstName = "Hillevi", lastName = "Bark" };
+            myself.mother.father = new Person() { firstName = "Selim", lastName = "Andersson" };
+            myself.mother.mother = new Person() { firstName = "Rut", lastName = "Andersson" };
 
-            Console.WriteLine(myself.GetSelfAndParents());
-            Console.WriteLine();
+
+
+            Console.WriteLine(myself.mother.GetFullName());
         }
 
         class Person
@@ -29,21 +34,7 @@
                 return $"Name: {firstName} {lastName}";
             }
 
-            public string GetSelfAndParents()
-            {
-                if (father == null)
-                {
-                    father = new Person { firstName = "Okänd" }; 
-                }
-                if(mother == null)
-                {
-                    mother = new Person { firstName = "Okänd" };
-                }
-                
-                string returnedValue = $"Mitt namn = {firstName} {lastName}\nMother = {mother.firstName} {mother.lastName}\nFather = {father.firstName} {father.lastName}";
-                return returnedValue;
-                
-            }
+            
         }
     }
 }

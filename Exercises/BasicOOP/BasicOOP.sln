@@ -3,17 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Skriva ut namn på personer", "01. Skriva ut namn på personer\01. Skriva ut namn på personer.csproj", "{8D21894A-6E55-44DD-A257-255A501FD938}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Skriva ut namn på personer", "01. Skriva ut namn på personer\01. Skriva ut namn på personer.csproj", "{8D21894A-6E55-44DD-A257-255A501FD938}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Lägg till en metod som returnerar hela namnet", "02. Lägg till en metod som returnerar hela namnet\02. Lägg till en metod som returnerar hela namnet.csproj", "{F7166004-3EFA-487F-BABF-591197364AC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Lägg till en metod som returnerar hela namnet", "02. Lägg till en metod som returnerar hela namnet\02. Lägg till en metod som returnerar hela namnet.csproj", "{F7166004-3EFA-487F-BABF-591197364AC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Lägg till en metod som returnerar namnet baklänges", "03. Lägg till en metod som returnerar namnet baklänges\03. Lägg till en metod som returnerar namnet baklänges.csproj", "{7C229ADE-70F2-417D-9E38-74B09F4DFD64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Lägg till en metod som returnerar namnet baklänges", "03. Lägg till en metod som returnerar namnet baklänges\03. Lägg till en metod som returnerar namnet baklänges.csproj", "{7C229ADE-70F2-417D-9E38-74B09F4DFD64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Overload av GetFullName med titel.", "04. Overload av GetFullName med titel\04. Overload av GetFullName med titel..csproj", "{6F5C7F9C-979E-40E0-A678-385E2706995F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Overload av GetFullName med titel.", "04. Overload av GetFullName med titel\04. Overload av GetFullName med titel..csproj", "{6F5C7F9C-979E-40E0-A678-385E2706995F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Lägg till så personer kan ha föräldrar.", "05. Lägg till så personer kan ha föräldrar\05. Lägg till så personer kan ha föräldrar..csproj", "{E61DFB5C-E494-4397-8FD5-C0E30092F80E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Lägg till så personer kan ha föräldrar.", "05. Lägg till så personer kan ha föräldrar\05. Lägg till så personer kan ha föräldrar..csproj", "{E61DFB5C-E494-4397-8FD5-C0E30092F80E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Skapa ett objekt som representerar dig och dina föräldrar", "06. Skapa ett objekt som representerar dig och dina föräldrar\06. Skapa ett objekt som representerar dig och dina föräldrar.csproj", "{3E2D6B63-DB0B-4B6C-9F4D-7F6EBFF13582}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Skapa ett objekt som representerar dig och dina föräldrar", "06. Skapa ett objekt som representerar dig och dina föräldrar\06. Skapa ett objekt som representerar dig och dina föräldrar.csproj", "{3E2D6B63-DB0B-4B6C-9F4D-7F6EBFF13582}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Hämta information om dig och dina föräldrar.", "07. Hämta information om dig och dina föräldrar\07. Hämta information om dig och dina föräldrar..csproj", "{4AC10480-1200-4CE5-98CB-1D2FFB2CD5A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Privat fält, med metoder för att sätta och hämta värdet.", "08. Privat fält, med metoder för att sätta och hämta värdet\08. Privat fält, med metoder för att sätta och hämta värdet..csproj", "{3C48A3A1-388C-42D3-A600-401865E2E81D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Vikt och BMI", "09. Vikt och BMI\09. Vikt och BMI.csproj", "{DA8E1314-F69D-4658-A720-C3CFB566E75F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{3E2D6B63-DB0B-4B6C-9F4D-7F6EBFF13582}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E2D6B63-DB0B-4B6C-9F4D-7F6EBFF13582}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E2D6B63-DB0B-4B6C-9F4D-7F6EBFF13582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AC10480-1200-4CE5-98CB-1D2FFB2CD5A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AC10480-1200-4CE5-98CB-1D2FFB2CD5A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AC10480-1200-4CE5-98CB-1D2FFB2CD5A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AC10480-1200-4CE5-98CB-1D2FFB2CD5A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C48A3A1-388C-42D3-A600-401865E2E81D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C48A3A1-388C-42D3-A600-401865E2E81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C48A3A1-388C-42D3-A600-401865E2E81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C48A3A1-388C-42D3-A600-401865E2E81D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA8E1314-F69D-4658-A720-C3CFB566E75F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8E1314-F69D-4658-A720-C3CFB566E75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8E1314-F69D-4658-A720-C3CFB566E75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8E1314-F69D-4658-A720-C3CFB566E75F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
