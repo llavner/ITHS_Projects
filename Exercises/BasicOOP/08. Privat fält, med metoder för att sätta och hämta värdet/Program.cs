@@ -3,13 +3,6 @@
     internal class Program
     {
 
-        //Uppdatera klassen med ett fält, private double length, som kan lagra längden på personen.
-        //Eftersom denna är markerad som private kommer man inte kunna läsa/skriva denna utanför klassen.
-        //Lägg därför till en metod void SetLength(double length) som sätter värdet på det privat fältet length,
-        //samt en double GetLength() som returnerar värdet på fältet length.
-
-        //När du är klar ska följande kod ge utskriften 1.82
-
         static void Main(string[] args)
         {
             Person myself = new Person() { firstName = "Marcus", lastName = "Renvall" };
