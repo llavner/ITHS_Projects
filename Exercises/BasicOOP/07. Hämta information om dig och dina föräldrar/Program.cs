@@ -8,7 +8,7 @@
 
             //myself.father = new Person() { firstName = "Leif", lastName = "Renvall" };
 
-            myself.mother = new Person() { firstName = "Hillevi", lastName = "Bark" };
+            //myself.mother = new Person() { firstName = "Hillevi", lastName = "Bark" };
 
             //myself.father.father = new Person() { firstName = "Lage", lastName = "Renvall" };
 
@@ -40,7 +40,7 @@
                     mother = new Person { firstName = "Unknown" };
                 }
 
-                string returnedValue = $"My name = {firstName} {lastName}\nMother = {mother.firstName} {mother.lastName}\nFather = {father.firstName} {father.lastName}";
+                string returnedValue = $"Name = {firstName} {lastName}\nMother = {mother.firstName} {mother.lastName}\nFather = {father.firstName} {father.lastName}";
                 return returnedValue;
 
             }
