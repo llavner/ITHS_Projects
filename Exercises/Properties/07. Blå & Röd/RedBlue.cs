@@ -11,19 +11,19 @@ namespace _07._Blå___Röd
 
 		private double _blue;
         private double _red;
-		public double sum = 100;
+		
 
 
         public double Blue
 		{
 			get { return _blue; }
-			set { _blue = value - sum; }
+			set { _blue = value; }
 		}
 
 		public double Red
 		{
 			get { return _red; }
-			set { _red = value - sum ; }
+			set { _red = value; }
 		}
 
 	}
