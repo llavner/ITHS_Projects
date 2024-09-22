@@ -7,13 +7,13 @@
         {
             Person myself = new Person() { firstName = "Marcus", lastName = "Renvall" };
             //myself.father = new Person() { firstName = "Leif", lastName = "Renvall" };
-            myself.mother = new Person() { firstName = "Hillevi", lastName = "Bark" };
+            //myself.mother = new Person() { firstName = "Hillevi", lastName = "Bark" };
             //myself.father.father = new Person() { firstName = "Lage", lastName = "Renvall" };
 
             Person newPerson = new Person();
 
             newPerson.SetLength(1.82);
-
+            
             Console.WriteLine(newPerson.GetLength());
 
         }

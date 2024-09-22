@@ -4,7 +4,20 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+            string text = "Hello World";
+
+            for (int i = 0; i < text.Length; i++)
+            {
+
+                for (int j = 0; j < text.Length; j++)
+                {
+                    Console.WriteLine(text[i]);
+                }
+
+                Console.WriteLine();
+            }
+            
         }
     }
 }

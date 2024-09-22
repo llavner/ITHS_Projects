@@ -4,20 +4,18 @@
     {
         static void Main(string[] args)
         {
-            MyPerson myself = new MyPerson() { firstName = "Marcus", lastName = "Renvall"};
-
-            
+            Person myself = new Person() { firstName = "Marcus", lastName = "Renvall"};
 
             Console.WriteLine(myself.GetFullName());
         }
 
-        class MyPerson
+        class Person
         {
             public string firstName = "default name";
             public string lastName = "default lastname";
 
-            public MyPerson mother;
-            public MyPerson father;
+            public Person mother;
+            public Person father;
 
             public string GetFullName()
             {
