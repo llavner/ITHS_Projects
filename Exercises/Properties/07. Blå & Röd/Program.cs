@@ -13,29 +13,17 @@
 
             var myCalc = new CalculateData();
 
-
-            //myCalc.Blue = 50;
-            myCalc.Red = 24.3;
-            //Move to Properties
-            /*if (myCalc.Blue > myCalc.Red)
-            {
-                myCalc.Blue = 100 - myCalc.Blue;
-                myCalc.Red = 100 - myCalc.Blue;
-            }
-            else
-            {
-                myCalc.Red = 100 - myCalc.Red;
-                myCalc.Blue = 100 - myCalc.Red;
-            }*/
+            myCalc.Red = 54.3;
 
             Console.WriteLine($"When Blue is {Math.Round(myCalc.Blue, 1)} Red is {Math.Round(myCalc.Red, 1)}");
 
-           
-
-            
 
 
-            
+
+
+
+
+
         }
     }
 }

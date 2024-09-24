@@ -12,6 +12,8 @@
 
             public Size Size;
 
+            Random random = new Random();
+
             
 
 
@@ -28,7 +30,7 @@
             {
                 Brand = brand;
                 Color = color;
-                Size.Length = 2;
+                Size.Length = random.Next(1, 4);
                 
             }
 

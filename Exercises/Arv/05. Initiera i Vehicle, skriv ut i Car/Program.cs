@@ -10,15 +10,11 @@
 
         static void Main(string[] args)
         {
-            
 
-            
-            Console.WriteLine(new Car(Brand.Volvo,"S90", Color.Red));
-
-
+            Console.WriteLine(new Car(Brand.Volvo, "S90", Color.Red));
         }
 
-        
+
     }
 }
 

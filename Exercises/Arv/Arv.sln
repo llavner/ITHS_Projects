@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Skapa en struct för at
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Initiera i Vehicle, skriv ut i Car.", "05. Initiera i Vehicle, skriv ut i Car\05. Initiera i Vehicle, skriv ut i Car..csproj", "{AEEA3EAD-81AC-4EDC-91F8-9F97264019B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Circle som ärver från Shape", "06. Circle som ärver från Shape\06. Circle som ärver från Shape.csproj", "{26084090-3604-40F3-8789-CAC797FA1302}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{AEEA3EAD-81AC-4EDC-91F8-9F97264019B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEEA3EAD-81AC-4EDC-91F8-9F97264019B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEEA3EAD-81AC-4EDC-91F8-9F97264019B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26084090-3604-40F3-8789-CAC797FA1302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26084090-3604-40F3-8789-CAC797FA1302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26084090-3604-40F3-8789-CAC797FA1302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26084090-3604-40F3-8789-CAC797FA1302}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

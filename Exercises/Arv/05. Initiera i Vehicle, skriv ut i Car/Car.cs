@@ -15,7 +15,7 @@
 
             public override string ToString()
             {
-                return $"A {Color} {Size.Length} {Model} from {Brand}";
+                return $"A {Color}, with the length of {Size.Length} m, {Model} from {Brand}";
             }
 
         }
