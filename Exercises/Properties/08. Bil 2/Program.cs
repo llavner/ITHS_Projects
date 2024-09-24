@@ -13,5 +13,12 @@ namespace _08._Bil_2
         {
             Console.WriteLine("Hello, World!");
         }
+
+        class Car
+        {
+
+            
+
+        }
     }
 }
