@@ -1,23 +1,18 @@
-﻿using System.Drawing;
-using System.Reflection;
-using System.Runtime.CompilerServices;
-using System.Security.Cryptography.X509Certificates;
-
-namespace _06._Circle_som_ärver_från_Shape
+﻿namespace _08._Lägg_till_Print___i_Shape
 {
-    internal class Program
 
-    //A circle with radius 5
-    //Area: 78,54
-    //Circumference: 31,42
+
+    internal class Program
     {
+
         static void Main(string[] args)
         {
-            var circle = new Circle(5);
-            Console.WriteLine(circle);
-            Console.WriteLine($"Area: {circle.Area:f2}");
-            Console.WriteLine($"Circumference: {circle.Circumference:f2}");
 
+
+            var square = new Square(5);
+            Console.WriteLine(square);
+            Console.WriteLine($"Area: {square.Area:f2}");
+            Console.WriteLine($"Circumference: {square.Circumference:f2}");
         }
 
         public abstract class Shape
@@ -50,5 +45,31 @@ namespace _06._Circle_som_ärver_från_Shape
             }
 
         }
+
+        public class Square : Shape
+        {
+
+            public override double Area { get; }
+
+            public override double Circumference { get; }
+
+            public int Side { get; set; }
+
+            public override string ToString()
+            {
+                return $"A Square with the side {Side}";
+            }
+
+
+            // Constructor
+            public Square(int x)
+            {
+                Side = x;
+                Area = 0;
+                Circumference = 0;
+            }
+
+        }
     }
 }
+

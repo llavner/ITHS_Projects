@@ -9,11 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Lägg till override fö
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Skapa en subklass för bilar", "03. Skapa en subklass för bilar\03. Skapa en subklass för bilar.csproj", "{3B3C2BB1-4E22-46EB-89BB-7FAECE72E5C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Skapa en struct för att spara längd, bredd och höjd.", "04. Skapa en struct för att spara längd, bredd och höjd\04. Skapa en struct för att spara längd, bredd och höjd..csproj", "{6A0B1A47-7A28-4C81-8229-F8D65409901F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Skapa en struct för att spara längd, bredd och höjd.", "04. Skapa en struct för att spara längd, bredd och höjd\04. Skapa en struct för att spara längd, bredd och höjd..csproj", "{6A0B1A47-7A28-4C81-8229-F8D65409901F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Initiera i Vehicle, skriv ut i Car.", "05. Initiera i Vehicle, skriv ut i Car\05. Initiera i Vehicle, skriv ut i Car..csproj", "{AEEA3EAD-81AC-4EDC-91F8-9F97264019B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Initiera i Vehicle, skriv ut i Car.", "05. Initiera i Vehicle, skriv ut i Car\05. Initiera i Vehicle, skriv ut i Car..csproj", "{AEEA3EAD-81AC-4EDC-91F8-9F97264019B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Circle som ärver från Shape", "06. Circle som ärver från Shape\06. Circle som ärver från Shape.csproj", "{26084090-3604-40F3-8789-CAC797FA1302}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Circle som ärver från Shape", "06. Circle som ärver från Shape\06. Circle som ärver från Shape.csproj", "{26084090-3604-40F3-8789-CAC797FA1302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Square ärver också från Shape", "07. Square ärver också från Shape\07. Square ärver också från Shape.csproj", "{5350F395-F40C-4748-A25B-D4839317463C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Lägg till Print() i Shape", "08. Lägg till Print() i Shape\08. Lägg till Print() i Shape.csproj", "{88EEBF23-72B0-4618-9873-46864E6BB1F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{26084090-3604-40F3-8789-CAC797FA1302}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26084090-3604-40F3-8789-CAC797FA1302}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26084090-3604-40F3-8789-CAC797FA1302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5350F395-F40C-4748-A25B-D4839317463C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5350F395-F40C-4748-A25B-D4839317463C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5350F395-F40C-4748-A25B-D4839317463C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5350F395-F40C-4748-A25B-D4839317463C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88EEBF23-72B0-4618-9873-46864E6BB1F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88EEBF23-72B0-4618-9873-46864E6BB1F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88EEBF23-72B0-4618-9873-46864E6BB1F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88EEBF23-72B0-4618-9873-46864E6BB1F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
