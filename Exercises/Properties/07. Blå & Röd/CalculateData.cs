@@ -22,7 +22,12 @@ namespace _07._Blå___Röd
 
             set
             {
-             _red = Math.Clamp(value, 0, 100);
+                 _red = Math.Clamp(value, 0, 100);
+                if (_red < 100)
+                {
+                    _red = 100 - _red;
+                    _blue = 100 - _red;
+                }
             }
         }
 
@@ -33,6 +38,11 @@ namespace _07._Blå___Röd
             set
             {
                 _blue = Math.Clamp(value, 0, 100);
+                if (_blue < 100)
+                {
+                    Blue = 100 - Blue;
+                    Red = 100 - Blue;
+                }
             }
         }
 

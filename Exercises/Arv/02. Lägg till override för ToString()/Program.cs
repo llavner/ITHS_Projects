@@ -10,7 +10,56 @@ namespace _02._Lägg_till_override_för_ToString__
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            
+            Console.WriteLine(new Vehicle(Brand.Saab, Color.Yellow));
+
+            Console.WriteLine();
+        }
+
+        class Vehicle
+        {
+            // Properties
+
+            public Brand Brand { get; set; }
+
+            public Color Color { get; set; }
+
+            public override string ToString()
+            {
+                return $"A {Color} {Brand}";
+                
+            }
+
+            // Constructor
+            public Vehicle(Brand brand, Color color)
+            {
+                Brand = brand;
+                Color = color;
+            }
+
+            public Vehicle(Brand brand)
+            {
+                Color = Color.Green;
+            }
+
+        }
+
+        public enum Brand
+        {
+            Volvo,
+            BMW,
+            Saab,
+            Dodge
+        }
+
+        public enum Color
+        {
+            Red,
+            Blue,
+            Green,
+            Brown,
+            Yellow
+
         }
     }
 }

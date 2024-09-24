@@ -1,29 +1,26 @@
-﻿using System.Drawing;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace _03._Skapa_en_subklass_för_bilar
+namespace _04._Skapa_en_struct_för_att_spara_längd__bredd_och_höjd_
 {
     internal class Program
     {
-        //Skapa en klass Car som ärver av Vehicle. Lägg till en publik property Model, och skapa en konstruktor som initierar Brand, Model och Color.
-        //"A white Yaris from Toyota" ska skrivas ut om man kör följande kod:
-        //Console.WriteLine(new Car(Brand.Toyota, "Yaris", Color.White));
 
-
+        // Skapa en struct Size med properties Length, Width och Height; samt en konstruktor som tar 3 argument för att initiera dessa.
         static void Main(string[] args)
         {
 
-            //Console.WriteLine(new Vehicle(Brand.Saab, Color.Yellow));
-
             Console.WriteLine(new Car(Brand.Volvo, "S90", Color.Red));
-        }
 
+
+        }
+         
         class Car : Vehicle
         {
             public string Model { get; set; }
 
             public Car(Brand brand, string model, Color color)
             {
-                
+
                 Model = model;
 
             }
@@ -84,6 +81,19 @@ namespace _03._Skapa_en_subklass_för_bilar
             Brown,
             Yellow
 
+        }
+
+        struct Size
+        {
+            public double Length, Width, Height;
+            
+            public Size(double length, double width, double height)
+            {
+                Length = length;
+                Width = width;
+                Height = height;
+            }
+            
         }
     }
 }

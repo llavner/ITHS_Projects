@@ -16,8 +16,8 @@
 
             //myCalc.Blue = 50;
             myCalc.Red = 24.3;
-
-            if (myCalc.Blue > myCalc.Red)
+            //Move to Properties
+            /*if (myCalc.Blue > myCalc.Red)
             {
                 myCalc.Blue = 100 - myCalc.Blue;
                 myCalc.Red = 100 - myCalc.Blue;
@@ -26,7 +26,7 @@
             {
                 myCalc.Red = 100 - myCalc.Red;
                 myCalc.Blue = 100 - myCalc.Red;
-            }
+            }*/
 
             Console.WriteLine($"When Blue is {Math.Round(myCalc.Blue, 1)} Red is {Math.Round(myCalc.Red, 1)}");
 
