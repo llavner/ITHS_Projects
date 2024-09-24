@@ -47,6 +47,11 @@ namespace _04._Skapa_en_struct_för_att_spara_längd__bredd_och_höjd_
             }
 
             // Constructor
+
+            public Vehicle(Size size)
+            {
+
+            }
             public Vehicle(Brand brand, Color color)
             {
                 Brand = brand;
@@ -87,12 +92,12 @@ namespace _04._Skapa_en_struct_för_att_spara_längd__bredd_och_höjd_
         {
             public double Length, Width, Height;
             
-            public Size(double length, double width, double height)
+           /* public Size(double length, double width, double height)
             {
                 Length = length;
                 Width = width;
                 Height = height;
-            }
+            }*/
             
         }
     }

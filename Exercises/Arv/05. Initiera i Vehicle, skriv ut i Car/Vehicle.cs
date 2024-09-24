@@ -10,6 +10,11 @@
 
             public Color Color { get; set; }
 
+            public Size Size;
+
+            
+
+
             public override string ToString()
             {
                 return $"A {Color}{Brand}";
@@ -17,10 +22,14 @@
             }
 
             // Constructor
+
+            
             public Vehicle(Brand brand, Color color)
             {
                 Brand = brand;
                 Color = color;
+                Size.Length = 2;
+                
             }
 
             public Vehicle(Brand brand)
@@ -28,10 +37,7 @@
                 Color = Color.Green;
             }
 
-            public Vehicle()
-            {
-
-            }
+           
 
         }
     }

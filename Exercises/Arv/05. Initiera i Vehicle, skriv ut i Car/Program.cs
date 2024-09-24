@@ -3,48 +3,22 @@
     internal partial class Program
     {
         //Uppdatera Vehicle-klassen så den sätter slumpmässiga (men rimliga) värden för längd, bredd och höjd.
+
         //Uppdatera Car-klassen så att även längden skrivs ut när samma kod som i uppgift 3 körs.
 
         //Ex: "A white 4.1 meter long Yaris from Toyota".
 
         static void Main(string[] args)
         {
+            
 
-            Console.WriteLine(new Car(Brand.Volvo, "S90", Color.Red));
+            
+            Console.WriteLine(new Car(Brand.Volvo,"S90", Color.Red));
 
-
-        }
-
-        public enum Brand
-        {
-            Volvo,
-            BMW,
-            Saab,
-            Dodge
-        }
-
-        public enum Color
-        {
-            Red,
-            Blue,
-            Green,
-            Brown,
-            Yellow
 
         }
 
-        struct Size
-        {
-            public double Length, Width, Height;
-
-            public Size(double length, double width, double height)
-            {
-                Length = length;
-                Width = width;
-                Height = height;
-            }
-
-        }
+        
     }
 }
 

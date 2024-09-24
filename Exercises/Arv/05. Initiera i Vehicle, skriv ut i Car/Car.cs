@@ -6,16 +6,16 @@
         {
             public string Model { get; set; }
 
-            public Car(Brand brand, string model, Color color)
+            
+            
+            public Car(Brand brand, string model, Color color) : base (brand, color)
             {
-
                 Model = model;
-
             }
 
-            public override string ToString() // ??
+            public override string ToString()
             {
-                return $"A {Color} {Model} from {Brand}";
+                return $"A {Color} {Size.Length} {Model} from {Brand}";
             }
 
         }
