@@ -17,7 +17,7 @@
             int num2 = Int32.Parse(splittedInput[2]);
 
 
-                Console.WriteLine($"'{splittedInput[2]}'");
+                Console.WriteLine($"{splittedInput[2]}");
 
                 if (splittedInput[1] == "+")
                     Console.WriteLine(num1 + num2);
