@@ -8,6 +8,14 @@
 
         static void Main(string[] args)
         {
+
+            var circle = new Circle(5);
+            Console.WriteLine(circle);
+            Console.WriteLine($"Area: {circle.Area:f2}");
+            Console.WriteLine($"Circumference: {circle.Circumference:f2}");
+
+            Console.WriteLine();
+
             var square = new Square(5);
             Console.WriteLine(square);
             Console.WriteLine($"Area: {square.Area:f2}");

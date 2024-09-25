@@ -5,9 +5,21 @@
     internal class Program
     {
 
+        //Uppdatera (endast) den abstrakta basklassen med en Print() method.
+        //När detta är gjort ska koden nedan...
+
+        //A square with side 3,2 has an area of 10,24 and a circumference of 12,80.
+        //A circle with radius 4,5 has an area of 63,62 and a circumference of 28,27.
+
+
         static void Main(string[] args)
         {
+            var circle = new Circle(5);
+            Console.WriteLine(circle);
+            Console.WriteLine($"Area: {circle.Area:f2}");
+            Console.WriteLine($"Circumference: {circle.Circumference:f2}");
 
+            Console.WriteLine();
 
             var square = new Square(5);
             Console.WriteLine(square);
