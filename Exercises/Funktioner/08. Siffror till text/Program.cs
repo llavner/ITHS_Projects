@@ -15,13 +15,7 @@
         {
             string[] numWords = { "noll", "ett", "två", "tre", "fyra", "fem", "sex", "sju", "åtta", "nio" };
 
-            
-
-            int index = number;
-
-            string selectedNumbers = numWords[index];
-
-            Console.WriteLine(selectedNumbers);
+         
         }
     }
 }
