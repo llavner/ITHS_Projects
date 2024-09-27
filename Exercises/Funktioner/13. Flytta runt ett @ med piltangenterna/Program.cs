@@ -42,43 +42,58 @@
 
             }
 
-            int horisont = 20;
-            int vertical = 10;
-
+            int x = 20;
+            int y = 10;
+            Console.CursorVisible = false;
+            ConsoleKeyInfo keyPressed;
+            
             do // Game Loop
             {
-                Console.CursorVisible = false;
+                Thread.Sleep(50);
+                keyPressed = Console.ReadKey(true);
 
-                if(Console.ReadKey().Key == ConsoleKey.LeftArrow)
+
+                // Gör en Funktion som hanterar detta tack.
+
+                if(keyPressed.Key == ConsoleKey.A)
                 {
-                    horisont--;
-                    Console.SetCursorPosition(horisont,vertical);
+                    Console.SetCursorPosition(x, y);
+                    Console.Write(" ");
+                    x--;
+                    Console.SetCursorPosition(x,y);
+                    Console.Write(player);
+
+
+                }
+                if (keyPressed.Key == ConsoleKey.D)
+                {
+                    Console.SetCursorPosition(x, y);
+                    Console.Write(" ");
+                    x++;
+                    Console.SetCursorPosition(x, y);
                     Console.Write(player);
 
                 }
-                if (Console.ReadKey().Key == ConsoleKey.RightArrow)
+                if (keyPressed.Key == ConsoleKey.W)
                 {
-                    horisont++;
-                    Console.SetCursorPosition(horisont, vertical);
+                    Console.SetCursorPosition(x, y);
+                    Console.Write(" ");
+                    y--;
+                    Console.SetCursorPosition(x, y);
                     Console.Write(player);
 
                 }
-                if (Console.ReadKey().Key == ConsoleKey.UpArrow)
+                if (keyPressed.Key == ConsoleKey.S)
                 {
-                    vertical--;
-                    Console.SetCursorPosition(horisont, vertical);
-                    Console.Write(player);
-
-                }
-                if (Console.ReadKey().Key == ConsoleKey.DownArrow)
-                {
-                    vertical++;
-                    Console.SetCursorPosition(horisont, vertical);
+                    Console.SetCursorPosition(x, y);
+                    Console.Write(" ");
+                    y++;
+                    Console.SetCursorPosition(x, y);
                     Console.Write(player);
 
                 }
 
-            } while (Console.ReadKey().Key != ConsoleKey.Escape);
+            } while (keyPressed.Key != ConsoleKey.Escape);
 
 
         }
