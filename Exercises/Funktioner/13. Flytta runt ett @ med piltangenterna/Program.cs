@@ -24,9 +24,6 @@
 
             for (int i = 0; i < boxHeight; i++)
             {
-
-
-
                 for (int j = 0; j < boxWidth; j++)
                 {
                     if (i == 0 || i == boxHeight - 1 || j == 0 || j == boxWidth - 1)
@@ -46,7 +43,7 @@
             int y = 10;
             Console.CursorVisible = false;
             ConsoleKeyInfo keyPressed;
-            
+
             do // Game Loop
             {
                 Thread.Sleep(50);
@@ -55,12 +52,12 @@
 
                 // Gör en Funktion som hanterar detta tack.
 
-                if(keyPressed.Key == ConsoleKey.A)
+                if (keyPressed.Key == ConsoleKey.A)
                 {
                     Console.SetCursorPosition(x, y);
                     Console.Write(" ");
                     x--;
-                    Console.SetCursorPosition(x,y);
+                    Console.SetCursorPosition(x, y);
                     Console.Write(player);
 
 
@@ -93,7 +90,10 @@
 
                 }
 
+                
+
             } while (keyPressed.Key != ConsoleKey.Escape);
+            Console.Clear();
 
 
         }
