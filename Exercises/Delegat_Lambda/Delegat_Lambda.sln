@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Deklarera en egen delegat-typ", "01. Deklarera en egen delegat-typ\01. Deklarera en egen delegat-typ.csproj", "{F46B0CBD-DFB9-4DF6-A690-78C3395837BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Använd generiskt delegat", "02. Använd generiskt delegat\02. Använd generiskt delegat.csproj", "{BFBAFF23-5104-415B-BBBF-32EA876BABFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Metod som tar delegat som inparameter", "03. Metod som tar delegat som inparameter\03. Metod som tar delegat som inparameter.csproj", "{33DD9552-F004-40E3-8BD5-43D9A830C461}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Skriv ut summan av två värden", "04. Skriv ut summan av två värden\04. Skriv ut summan av två värden.csproj", "{9063E293-FC5A-4593-9978-4A99A0309E66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Returnera summan av två värden", "05. Returnera summan av två värden\05. Returnera summan av två värden.csproj", "{255FE5F6-0253-4B70-B383-39CC0BF93855}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Lambda som argument", "06. Lambda som argument\06. Lambda som argument.csproj", "{3017BCA1-344E-40E2-A5B6-87097D812255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Modifiera utskrift med lambdauttryck", "07. Modifiera utskrift med lambdauttryck\07. Modifiera utskrift med lambdauttryck.csproj", "{D5590AAF-1053-4E5F-A833-DECF86606DFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Filtrera array (utskrift)", "08. Filtrera array (utskrift)\08. Filtrera array (utskrift).csproj", "{0965DA96-7E41-455D-898D-FF512B8465F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Filtrera array (till ny array)", "09. Filtrera array (till ny array)\09. Filtrera array (till ny array).csproj", "{3EFEA581-0041-43EC-9167-1D16E28D3A7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F46B0CBD-DFB9-4DF6-A690-78C3395837BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F46B0CBD-DFB9-4DF6-A690-78C3395837BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F46B0CBD-DFB9-4DF6-A690-78C3395837BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F46B0CBD-DFB9-4DF6-A690-78C3395837BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFBAFF23-5104-415B-BBBF-32EA876BABFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFBAFF23-5104-415B-BBBF-32EA876BABFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFBAFF23-5104-415B-BBBF-32EA876BABFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFBAFF23-5104-415B-BBBF-32EA876BABFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33DD9552-F004-40E3-8BD5-43D9A830C461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33DD9552-F004-40E3-8BD5-43D9A830C461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33DD9552-F004-40E3-8BD5-43D9A830C461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33DD9552-F004-40E3-8BD5-43D9A830C461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9063E293-FC5A-4593-9978-4A99A0309E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9063E293-FC5A-4593-9978-4A99A0309E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9063E293-FC5A-4593-9978-4A99A0309E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9063E293-FC5A-4593-9978-4A99A0309E66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{255FE5F6-0253-4B70-B383-39CC0BF93855}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{255FE5F6-0253-4B70-B383-39CC0BF93855}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{255FE5F6-0253-4B70-B383-39CC0BF93855}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{255FE5F6-0253-4B70-B383-39CC0BF93855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3017BCA1-344E-40E2-A5B6-87097D812255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3017BCA1-344E-40E2-A5B6-87097D812255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3017BCA1-344E-40E2-A5B6-87097D812255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3017BCA1-344E-40E2-A5B6-87097D812255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5590AAF-1053-4E5F-A833-DECF86606DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5590AAF-1053-4E5F-A833-DECF86606DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5590AAF-1053-4E5F-A833-DECF86606DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5590AAF-1053-4E5F-A833-DECF86606DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0965DA96-7E41-455D-898D-FF512B8465F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0965DA96-7E41-455D-898D-FF512B8465F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0965DA96-7E41-455D-898D-FF512B8465F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0965DA96-7E41-455D-898D-FF512B8465F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EFEA581-0041-43EC-9167-1D16E28D3A7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EFEA581-0041-43EC-9167-1D16E28D3A7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EFEA581-0041-43EC-9167-1D16E28D3A7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EFEA581-0041-43EC-9167-1D16E28D3A7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15BB5670-2469-4497-8288-F798A33A73EB}
+	EndGlobalSection
+EndGlobal
