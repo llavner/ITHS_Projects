@@ -16,9 +16,14 @@ namespace _08._Formulär_för_studenter
     /// </summary>
     public partial class MainWindow : Window
     {
+        string[] students = [ "Steve Harris", "Nicko McBrian", "Janick Gers", "Adrian Smith", "Dave Murray", "Bruce Dickenson" ];
+
+
         public MainWindow()
         {
             InitializeComponent();
+
+            myListBox.ItemsSource = students;
         }
     }
 }

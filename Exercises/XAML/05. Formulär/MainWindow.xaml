@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_05._Formulär"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="250" Width="300">
     <Grid>
 
+        <StackPanel>
+            
+            <Label Content="Name:"/>
+            <TextBox Width="100" HorizontalAlignment="Left"/>
+            <Label Content="Email:"/>
+            <TextBox Width="100" HorizontalAlignment="Left"/>
+            
+        </StackPanel>
     </Grid>
 </Window>

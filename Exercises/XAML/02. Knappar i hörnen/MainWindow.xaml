@@ -8,5 +8,13 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 
+        <Button Content="Top Left" 
+                HorizontalAlignment="Left" 
+                VerticalAlignment="Top"/>
+        
+        <Button Content="Bottom Right" 
+                HorizontalAlignment="Right" 
+                VerticalAlignment="Bottom"/>
+
     </Grid>
 </Window>

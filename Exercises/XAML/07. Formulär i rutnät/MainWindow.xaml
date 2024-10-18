@@ -5,8 +5,60 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_07._Formulär_i_rutnät"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="300" Width="400">
     <Grid>
+
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="30"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="30"/>
+
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="30"/>
+
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Column="1" Grid.Row="1" Orientation="Vertical" 
+                    HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            <Label Content="Firstname:"/>
+            <TextBox Width="100" HorizontalAlignment="Left"/>
+            
+        </StackPanel>
+
+        <StackPanel Grid.Column="3" Grid.Row="1" Orientation="Vertical"
+                    HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            <Label Content="Lastname:"/>
+            <TextBox Width="100" HorizontalAlignment="Left"/>
+
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Grid.Row="2" Orientation="Vertical"
+            HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            <Label Content="Email:"/>
+            <TextBox Width="100" HorizontalAlignment="Left"/>
+
+        </StackPanel>
+
+        <StackPanel Grid.Column="3" Grid.Row="2" Orientation="Horizontal"
+                    HorizontalAlignment="Center" VerticalAlignment="Center">
+
+            <Button Content="Cancel" Margin="10" Padding="5"/>
+            <Button Content="Ok" Margin="10" Padding="5"/>
+
+        </StackPanel>
+
 
     </Grid>
 </Window>
