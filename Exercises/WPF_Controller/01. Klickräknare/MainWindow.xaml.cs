@@ -20,5 +20,12 @@ namespace _01._Klickräknare
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+
+            
+
+        }
     }
 }
