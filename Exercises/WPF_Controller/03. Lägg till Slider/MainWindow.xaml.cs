@@ -11,9 +11,8 @@ using System.Windows.Shapes;
 
 namespace _03._Lägg_till_Slider
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    //Uppdatera programmet i uppgift 2 så att det även finns en slider som kan sättas från 0 till 9 (i hela steg, alltså endast heltal).
+    //Om man flyttar slidern så kan värdet på labeln ändras. Observera att knapparna fortfarande ska finnas kvar, fungera som förut, och även uppdatera slidern.
     public partial class MainWindow : Window
     {
         public MainWindow()

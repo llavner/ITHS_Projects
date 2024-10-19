@@ -11,8 +11,8 @@
         <StackPanel Orientation="Vertical"
                     HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1">
 
-            <Button x:Name="myButton" Content="Button" Click="button_Click"/>
-            <Label x:Name="myLabel" Content="1"/>
+            <Button x:Name="myButton" Content="Click: X" Click="button_Click"/>
+            
 
         </StackPanel>
 
