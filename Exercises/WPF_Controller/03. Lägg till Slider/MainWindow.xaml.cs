@@ -18,6 +18,20 @@ namespace _03._Lägg_till_Slider
         public MainWindow()
         {
             InitializeComponent();
+     
+        }
+        int counter = 5;
+        private void increase_Click(object sender, RoutedEventArgs e)
+        {
+            if (counter < 9)
+                myLabel.Content = counter += 1;
+
+        }
+
+        private void decrease_Click(object sender, RoutedEventArgs e)
+        {
+            if (counter > 0)
+                myLabel.Content = counter -= 1;
         }
     }
 }

@@ -24,14 +24,14 @@ namespace _02._Räkna_upp_och_ner_i_en_label_
         private void increase_Click(object sender, RoutedEventArgs e)
         {
             if(counter < 9)
-            myLabel.Content = counter++;
+            myLabel.Content = counter += 1;
 
         }
 
         private void decrease_Click(object sender, RoutedEventArgs e)
         {
             if(counter > 0)
-            myLabel.Content = counter--;
+            myLabel.Content = counter -= 1;
         }
     }
 }

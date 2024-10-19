@@ -8,5 +8,19 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center"
+            VerticalAlignment="Center">
+            <Label x:Name="myLabel" Content="5" Grid.Column="0" FontSize="60"/>
+
+            <Button x:Name="increase" FontSize="40" Content="+" Click="increase_Click"
+            Width="70" Margin="10"/>
+
+            <Button x:Name="decrease" FontSize="40" Content="-" Click="decrease_Click"
+            Width="70" Margin="10"/>
+
+            <Slider x:Name="mySlider" Orientation="Vertical" SnapsToDevicePixels="True"/>
+
+        </StackPanel>
+
     </Grid>
 </Window>
