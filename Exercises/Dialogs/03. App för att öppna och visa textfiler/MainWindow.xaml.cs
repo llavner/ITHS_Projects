@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using System.IO;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -21,16 +22,32 @@ namespace _03._App_för_att_öppna_och_visa_textfiler
         public MainWindow()
         {
             InitializeComponent();
-        }
 
-        private void fileOpen_Click(object sender, RoutedEventArgs e)
-        {
+            
             
         }
 
-        private void fileExit_Click(object sender, RoutedEventArgs e)
+        private void openFile_Click(object sender, RoutedEventArgs e)
         {
+            
+            OpenFileDialog dialog = new OpenFileDialog();
 
+            dialog.ShowDialog();
+
+            var result = File.ReadAllText(dialog.FileName); // Testa denna mer
+
+            myTextbox.Text = result;
+
+        }
+
+        private void exitProgram_Click(object sender, RoutedEventArgs e)
+        {
+            var result = MessageBox.Show("Want to quit?", "Quit", MessageBoxButton.YesNo);
+
+            if(result == MessageBoxResult.Yes)
+            {
+                Environment.Exit(0);
+            }
         }
     }
 }

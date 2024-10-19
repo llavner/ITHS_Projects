@@ -7,21 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="500" Width="500">
     <Grid>
-        <!--<Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
 
-        <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>-->
+        <StackPanel Orientation="Vertical" >
+            <Menu DockPanel.Dock="Top">
 
-        <TextBox x:Name="myTextbox" />
+                <MenuItem Header="File">
+                    <MenuItem x:Name="openFile" Icon="💾" Header="Open" Click="openFile_Click"/>
+                    <MenuItem x:Name="exitProgram" Icon="✖️" Header="Exit" Click="exitProgram_Click"/>
+                </MenuItem>
+            </Menu>
 
+            <TextBox x:Name="myTextbox" IsReadOnly="True"
+                     VerticalScrollBarVisibility="Visible"
+                     HorizontalScrollBarVisibility="Auto"
+                     Height="400" Width="400"/>
 
-
-
-
+        </StackPanel>
     </Grid>
 </Window>

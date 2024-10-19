@@ -5,8 +5,36 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_04._Text_editor"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="No name" Height="500" Width="500" x:Name="window">
     <Grid>
 
+        <StackPanel Orientation="Vertical" >
+            <Menu DockPanel.Dock="Top">
+
+                <MenuItem Header="File">
+                    <MenuItem x:Name="newFile" 
+                              Header="New" Click="newFile_Click"/>
+                    
+                    <MenuItem x:Name="saveFile" Icon="💾" 
+                              Header="Save" Click="saveFile_Click"/>
+                    
+                    <MenuItem x:Name="saveAsFile" 
+                              Header="Save As" Click="saveAsFile_Click"/>
+                    
+                    <MenuItem x:Name="openFile" 
+                              Header="Open" Click="openFile_Click"/>
+                    
+                    <MenuItem x:Name="exitProgram" Icon="✖️" 
+                              Header="Exit" Click="exitProgram_Click"/>
+                    
+                </MenuItem>
+            </Menu>
+
+            <TextBox x:Name="myTextbox"
+                 VerticalScrollBarVisibility="Visible"
+                 HorizontalScrollBarVisibility="Auto"
+                 Height="400" Width="400"/>
+
+        </StackPanel>
     </Grid>
 </Window>
