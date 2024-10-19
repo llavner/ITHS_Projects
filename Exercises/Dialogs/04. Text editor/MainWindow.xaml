@@ -16,7 +16,8 @@
                               Header="New" Click="newFile_Click"/>
                     
                     <MenuItem x:Name="saveFile" Icon="💾" 
-                              Header="Save" Click="saveFile_Click"/>
+                              Header="Save" Click="saveFile_Click"
+                              IsEnabled="False"/>
                     
                     <MenuItem x:Name="saveAsFile" 
                               Header="Save As" Click="saveAsFile_Click"/>
@@ -33,7 +34,7 @@
             <TextBox x:Name="myTextbox"
                  VerticalScrollBarVisibility="Visible"
                  HorizontalScrollBarVisibility="Auto"
-                 Height="400" Width="400"/>
+                 Height="400" Width="400" TextChanged="myTextbox_TextChanged"/>
 
         </StackPanel>
     </Grid>

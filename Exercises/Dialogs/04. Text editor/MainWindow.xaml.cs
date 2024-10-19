@@ -33,11 +33,38 @@ namespace _04._Text_editor
 
     public partial class MainWindow : Window
     {
+
+        public bool isSaved { get; set; } = false;
+
+        public string FilePath { get; set; }
         public MainWindow()
         {
             InitializeComponent();
+            //TextBoxText = myTextbox.Text;
         }
 
+        private void newFile_Click(object sender, RoutedEventArgs e)
+        {
+
+            if (!isSaved)
+            {
+               var result = MessageBox.Show("Save Changed", "Save", MessageBoxButton.YesNo);
+                if (result == MessageBoxResult.Yes)
+                { 
+                    saveFile_Click(sender, e);
+                }
+            }
+            else
+            {
+                myTextbox.Text = string.Empty;
+                saveFile.IsEnabled = false;
+                window.Title = "New file";
+
+            }
+
+
+
+        }
         private void openFile_Click(object sender, RoutedEventArgs e)
         {
 
@@ -45,16 +72,13 @@ namespace _04._Text_editor
 
             var result = dialog.ShowDialog();
 
-            if(result == true)
+            if (result == true)
             {
-                myTextbox.Text = File.ReadAllText(dialog.FileName); 
+                myTextbox.Text = File.ReadAllText(dialog.FileName);
                 window.Title = System.IO.Path.GetFileName(dialog.FileName);
             }
 
         }
-
-
-
 
 
         private void exitProgram_Click(object sender, RoutedEventArgs e)
@@ -67,17 +91,20 @@ namespace _04._Text_editor
             }
         }
 
-        private void newFile_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
 
         private void saveFile_Click(object sender, RoutedEventArgs e)
         {
-
-
+            if (isSaved)
+            {
+                File.WriteAllText(FilePath, myTextbox.Text);
+            }
+            else
+            {
+                saveAsFile_Click(sender, e);
+            }
 
         }
+
 
         private void saveAsFile_Click(object sender, RoutedEventArgs e)
         {
@@ -85,14 +112,22 @@ namespace _04._Text_editor
             SaveFileDialog dialog = new();
             var result = dialog.ShowDialog();
 
-            if(result == true)
+            if (result == true)
             {
                 File.WriteAllText(dialog.FileName, myTextbox.Text);
+                isSaved = true;
+                window.Title = System.IO.Path.GetFileName(dialog.FileName);
+                FilePath = dialog.FileName;
+                saveFile.IsEnabled = true;
             }
-            
+
 
         }
 
+        private void myTextbox_TextChanged(object sender, TextChangedEventArgs e)
+        {
 
+
+        }
     }
 }
