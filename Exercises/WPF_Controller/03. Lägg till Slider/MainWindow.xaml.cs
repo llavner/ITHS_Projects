@@ -15,16 +15,21 @@ namespace _03._Lägg_till_Slider
     //Om man flyttar slidern så kan värdet på labeln ändras. Observera att knapparna fortfarande ska finnas kvar, fungera som förut, och även uppdatera slidern.
     public partial class MainWindow : Window
     {
+        int counter = 5;
+        
         public MainWindow()
         {
             InitializeComponent();
-     
+
+            mySlider.Value = counter;
         }
-        int counter = 5;
         private void increase_Click(object sender, RoutedEventArgs e)
         {
             if (counter < 9)
                 myLabel.Content = counter += 1;
+
+            if (mySlider.Value < mySlider.Maximum)
+                mySlider.Value = counter;
 
         }
 
@@ -32,6 +37,15 @@ namespace _03._Lägg_till_Slider
         {
             if (counter > 0)
                 myLabel.Content = counter -= 1;
+
+            if (mySlider.Value > mySlider.Minimum)
+                mySlider.Value = counter;
+        }
+
+        private void mySlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            
+            myLabel.Content = mySlider.Value.ToString();
         }
     }
 }

@@ -18,9 +18,15 @@
             <Button x:Name="decrease" FontSize="40" Content="-" Click="decrease_Click"
             Width="70" Margin="10"/>
 
-            <Slider x:Name="mySlider" Orientation="Vertical" SnapsToDevicePixels="True"/>
+            <Slider x:Name="mySlider" Orientation="Vertical" 
+                    SnapsToDevicePixels="True"
+                    IsSnapToTickEnabled="True"
+                    Minimum="0" Maximum="9"
+                    ValueChanged="mySlider_ValueChanged"
+                    />
 
         </StackPanel>
 
     </Grid>
 </Window>
+  
