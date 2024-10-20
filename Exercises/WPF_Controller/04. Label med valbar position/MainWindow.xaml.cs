@@ -28,21 +28,20 @@ namespace _04._Label_med_valbar_position
         {
             InitializeComponent();
 
-            
         }
+            
+            
 
         private void xSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            if(xSlider.Value < xSlider.Maximum)
-            {
-                
-
-            }
+            myLabel.Content = $"X= {xSlider.Value} Y= {ySlider.Value}";
+            
         }
 
         private void ySlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-
+            myLabel.Content = $"X= {xSlider.Value} Y= {ySlider.Value}";
+            
         }
     }
 }
