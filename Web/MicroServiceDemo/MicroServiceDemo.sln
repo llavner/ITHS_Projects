@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGateway", "APIGateway\APIGateway.csproj", "{32C5D37A-27A1-4EFD-8F3A-DF53EF258EFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService", "OrderService\OrderService.csproj", "{FA62857D-9A17-4A19-83D2-2DC4E0D2FD66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService", "ProductService\ProductService.csproj", "{E27EDF74-54E8-4BC0-9275-FB675A711EBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32C5D37A-27A1-4EFD-8F3A-DF53EF258EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C5D37A-27A1-4EFD-8F3A-DF53EF258EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C5D37A-27A1-4EFD-8F3A-DF53EF258EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C5D37A-27A1-4EFD-8F3A-DF53EF258EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA62857D-9A17-4A19-83D2-2DC4E0D2FD66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA62857D-9A17-4A19-83D2-2DC4E0D2FD66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA62857D-9A17-4A19-83D2-2DC4E0D2FD66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA62857D-9A17-4A19-83D2-2DC4E0D2FD66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E27EDF74-54E8-4BC0-9275-FB675A711EBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E27EDF74-54E8-4BC0-9275-FB675A711EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E27EDF74-54E8-4BC0-9275-FB675A711EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E27EDF74-54E8-4BC0-9275-FB675A711EBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
